@@ -1,0 +1,264 @@
+.nav {
+display: flex;
+width: 60%;
+margin: auto;
+padding: 30px;
+}
+
+.right {
+display: flex;
+}
+
+.right {
+  list-style: none;
+  margin-left: 15rem;
+}
+
+.right li {
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+}
+
+.right li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-left: 15%;
+}
+
+.cloud_picture {
+
+}
+
+.introH1 {
+	font-size: 55px;
+}
+
+.Nouveau {
+	border: 1px solid #b3b3b3;
+	border-radius: 2rem;
+	font-size: 35px;
+	padding: 4rem;
+}
+
+.text-demo {
+	margin-right: 2rem;
+}
+
+.introp {
+  font-size: 20px;
+}
+
+.logo1 {
+margin-top: -50px;
+width: 10rem;
+padding-top: 10px;	
+}
+
+.partenaires {
+ display: flex;
+ justify-content: center;
+ margin-top: 140px;	
+}
+
+.bplan {
+   color: #0080ff;
+   text-align: center;
+   padding: 2rem;
+}
+
+.Hplan {
+   text-align: center;
+}
+
+.presentation {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2rem;
+	width: 50%;
+	margin: auto;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.laptops {
+	display: flex;
+	align-items: center;
+}
+
+.laptopsText {
+	width: 20%;
+
+}
+
+.middle {
+	text-align: center;
+	width: 60%;
+	margin: 2rem auto 2rem auto;
+}
+
+.mensuel {
+	border: 1px solid blue;
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	padding: 1.5rem 5rem 1.5rem 5rem; 
+	text-decoration: none;
+	color: blue; 
+	font-size: 20px;
+}
+
+.btns {
+	margin: 7rem;
+}
+
+.annuel {
+		border: 1px solid black;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	padding: 1.5rem 5rem 1.5rem 5rem; 
+	text-decoration: none;
+	color: #000;
+	font-size: 20px; 
+	margin-left: -6px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.items {
+	border: .2px solid  #f2f2f2;
+	border-radius: 1rem;
+}
+
+.est-parti {
+	font-size: 20px;
+	color: #fff;
+	background-color:  #3385ff;
+	padding: 1.5rem 5rem 1.5rem 5rem; 
+	border-radius: 1rem;
+
+}
+
+.creer_business {
+	font-size: 15px;
+  	color: #fff;
+	background-color:  #3385ff;
+	padding: 1.5rem 2rem 1.5rem 2rem; 
+	border-radius: 1rem;
+}
+
+.est-parti-div {
+	margin: 3rem 0 3rem 0;
+	text-align: center;
+}
+
+.tick_text {
+	text-align: start;
+	padding: 4rem;
+}
+
+.tick_text span {
+	font-size: 20px;
+}
+
+.tick_text span i {
+	color: #00cc00;
+	padding: 10px;
+	margin-top: -5px;
+}
+
+.sep {
+	display: flex;
+}
+
+.icone-text {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 60%;
+	margin: auto;
+	grid-gap: 40px;
+}
+
+.div_div {
+	display: flex;
+	align-items: center;
+}
+
+.logo11 {
+	width: 4rem;
+	height: 6rem;
+	margin-right: 10px;
+}
+
+.human-text {
+	display: flex;
+		width: 60%;
+	margin: 5rem auto 5rem auto;
+}
+
+.chiffre_text {
+	display: flex;
+	align-items: center;
+	margin-bottom: 6rem;
+}
+
+.chiffre {
+  font-size: 60px;
+  color: #a6a6a6;
+  margin-right: 3rem;
+}
+
+.collapse_data {
+	width: 50%;
+	margin: auto;
+}
+
+.row-collapse {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	border-bottom: 1px solid  #b3b3b3;
+}
+
+.row-collapse:hover {
+	cursor: pointer;
+}
+
+.plus {
+	font-size: 30px;
+}
+
+.last_before_footer {
+	display: grid;
+	width: 60%;
+	margin: 4rem auto 4rem auto; 
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 4rem;
+}
+
+.bottom {
+	display: flex;
+	width: 60%;
+	margin: auto;
+	justify-content: space-between;
+	padding: 10rem 0 10rem 0;
+}
+
+.cloud_picture {
+	width: 
+}
+
+.bars {
+	font-size: 4rem;
+	display: none;
+	float: right;
+}
