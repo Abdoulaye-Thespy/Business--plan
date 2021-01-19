@@ -54,4 +54,86 @@
 .laptopsText {
    width: 50%;
 }
+
+.laptops img {
+   width: 40rem;
+}
+
+.laptopsText {
+	width: 60%;
+	padding: 2rem;
+
+}
+.mensuel {
+	padding: 1rem 3rem 1rem 3rem; 
+}
+
+.annuel {
+	padding: 1rem 3rem 1rem 3rem; 
+}
+
+.cards {
+    grid-column-gap: 5px;
+    margin-left: -80px;
+}
+
+.icone-text {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 85%;
+	margin: auto;
+	grid-gap: 40px;
+}
+
+.human-text {
+	width: 100%;
+	padding-right: 2rem;
+}
+
+.human-text img {
+    width: 40rem;
+}
+
+.last_before_footer {
+	width: 100%;
+	padding: 5rem;
+	grid-gap: .5rem;
+}
+
+
+}
+
+@media only screen and (max-width: 680px) {
+	.cloud_picture_div {
+     display: none;
+	}
+
+	.presentation {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 2rem;
+	width: 90%;
+	grid-gap: .5rem;
+}
+
+.laptops {
+	display: grid;
+	grid-template-columns: 1fr; 
+	text-align: center;
+}
+
+.laptopsText {
+	text-align: center;
+}
+
+.mensuel {
+	padding: .1rem .2rem .1rem .2rem; 
+	font-size: 20px;
+}
+
+.annuel {
+	padding: .1rem .2rem .1rem .2rem; 
+	font-size: 20px;
+}
+
 }
